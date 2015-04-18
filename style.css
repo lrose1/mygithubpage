@@ -1,0 +1,405 @@
+@font-face{ 
+	font-family: 'latin_modern_roman10_regular';
+	src: url('/Users/annikarose/Desktop/Website/Latin-Modern-Roman-fontfacekit/web fonts/latinmodernroman_10regular_macroman/lmroman10-regular-webfont.eot');
+	src: url('/Users/annikarose/Desktop/Website/Latin-Modern-Roman-fontfacekit/web fonts/latinmodernroman_10regular_macroman/lmroman10-regular-webfont.eot?iefix') format('eot'),
+	     url('/Users/annikarose/Desktop/Website/Latin-Modern-Roman-fontfacekit/web fonts/latinmodernroman_10regular_macroman/lmroman10-regular-webfont.woff') format('woff'),
+	     url('/Users/annikarose/Desktop/Website/Latin-Modern-Roman-fontfacekit/web fonts/latinmodernroman_10regular_macroman/lmroman10-regular-webfont.ttf') format('truetype'),
+	     url('/Users/annikarose/Desktop/Website/Latin-Modern-Roman-fontfacekit/web fonts/latinmodernroman_10regular_macroman/lmroman10-regular-webfont.svg#latin_modern_roman10_regular') format('svg');
+}
+
+h1 { font-family: 'News Cycle', sans-serif; }
+p { font-family: 'latin_modern_roman10_regular'; }
+html,body{ 
+    font-family: 'latin_modern_roman10_regular';    
+    width:100%;     
+    height:100%;
+   
+}
+
+/*Titles*/
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    position: relative;
+    padding-top: 8%;
+    padding-bottom: 2%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+}
+
+h2.b {
+    text-align: center;
+    font-size: 48px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-family: 'News Cycle', sans-serif;
+    font-weight: bold;
+}
+
+img1 {
+	width:400px;
+	z-index: 1;
+	position: absolute;
+	}
+
+/*Navigation*/
+
+.navigation {   
+    position:fixed;     
+    z-index:2;      
+    top:0px;
+    text-align:center;
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    background-color: #FFFFFF;
+}  
+.navigation li {    
+    color:#000000;      
+    display:inline;      
+    padding: 0 10px;    
+    line-height:30px;   
+    margin-bottom:auto;      
+    font-weight: normal;   
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition:all 0.2s ease-in-out;
+    -o-transition:all 0.2s ease-in-out;
+    -ms-transition:all 0.2s ease-in-out;
+    transition:all 0.2s ease-in-out;
+   /* border-bottom:1px solid black;*/
+}
+
+.navigation li:hover,
+.active {   
+    font-size:25px;     
+    cursor:pointer;     
+    width:auto!important;  
+}
+
+/*Images*/
+
+.envatologo {  
+    position:fixed;  
+    top:50%;  
+    left:50%;  
+    width:246px;  
+    margin-top:-41px;  
+    margin-left:-223px;  
+    z-index:1;  
+}
+
+img.front1 {
+ 
+   border:1px solid #666666;
+   margin:20px ;
+   position: relative;
+   left:auto;
+   top: 50%;
+   transform: translateY(-50%);
+}
+
+img.front2 {
+  
+   border:1px solid #666666;
+   margin:20px ;
+   position: relative;
+   top: 50%;
+   transform: translateY(-50%);
+}
+
+/*Links for teaching*/
+a.teaching:link {
+	color: #000000;
+}
+a.teaching:visited {
+	color: #000000;
+}
+a.teaching:hover {
+	color: rgba(51,153,255,.5);
+}
+
+/*Links for teaching pages*/
+a.pages:link {
+	color: #000000;
+	text-decoration: none;
+}
+a.pages:visited {
+	color: #000000;
+}
+a.pages:hover {
+	color: #000000;
+}
+
+
+/*Slides*/
+
+.slide {
+    background-attachment: fixed;
+    width:100%;
+    min-height:100%;
+    height: auto;
+    position: relative;
+    box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3);
+}
+.slide2 {
+    background-attachment: fixed;
+    width:100%;
+    height:70%;
+    position: relative;
+    box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3);
+}
+.wrapper {
+    width:960px;
+    height:200px;
+    margin:0 auto;
+    position:relative;
+}
+.slideno {
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    font-size:80px;
+    font-weight:bold;
+    color:rgba(102, 102, 102, 0.3);
+    font-family: 'News Cycle', sans-serif;
+}
+
+/*Button*/
+
+
+.button{
+    display: block;
+    width:50px;
+    height:50px;
+    position:absolute;
+    bottom:0px;
+    left:50%;
+    background-color: inherit;
+    background-image:url(https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-down-01-128.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    z-index: 50;
+}
+.button:hover{
+    background-color: #FFFFFF;
+    cursor:pointer;
+}
+
+/* Slides */
+
+#slide1{
+   /* background-color:#FFFFFF;
+    z-index: -2; */
+}
+
+#photobackground {
+    border: 2px solid;
+    border-radius: 25px;
+    background: #dddddd;
+    padding: 10px 40px;
+}
+
+#colorstrip{
+    width: 100%; height: 25%;
+    border-top-style: solid;
+    border-top-color: #666666;
+    border-top-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #666666;
+    border-bottom-width: 1px;
+    background-color: rgba(51,153,255,.5);
+    z-index: -1;
+    margin: 5% auto;
+    position: relative;
+}
+
+#colorlines{
+
+    display: block;
+    height: 5px;
+    border: none;
+    border-top: 1px solid rgba(51,153,255,.5);
+    border-bottom: 1px solid #666666;
+    margin-top: 10%;
+    padding: 0;
+   
+}
+
+#slide1a{
+    background-image:url(lillestrom2.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+     
+}
+
+#slide2{
+    
+}
+
+#navlist li
+{
+display: inline;
+list-style-type: none;
+padding-right: 20px;
+}
+
+/*List for teaching*/
+
+ul.a {
+  width: 95%;
+  list-style-type: none;
+  font-size: 24px;
+  margin: 0px auto;
+  white-space: nowrap;
+  font-family: 'News Cycle', sans-serif;
+}
+ul.a li {
+  float: left;
+  width: 32%;
+}
+ul.a li ul.a {
+  width: 100%;
+  font-family: 'latin_modern_roman10_regular';
+  list-style-type: none;
+  margin-bottom: 25px;
+  font-size: medium;
+  display: block;
+}
+ul.a li ul.a li {
+  display: block;
+  float: none;
+}
+
+
+
+#slide2a{
+    background-image:url(spreckels.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+     
+}
+
+#slide3a{
+    background-image:url(glacier2.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+     
+}
+
+#slide3{
+    
+}
+
+/*List for classes */
+
+ul.b {
+     width: 95%;
+     padding-top: 60px;
+     list-style-type: none;
+     font-size: 24px;
+     margin: 0px auto;
+     font-family: 'News Cycle', sans-serif;
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
+
+    
+}
+
+ul.b li{
+    -webkit-column-break-inside:avoid;
+    -moz-column-break-inside:avoid;
+    -o-column-break-inside:avoid;
+    -ms-column-break-inside:avoid;
+    column-break-inside:avoid;	
+	
+}
+
+ul.c {
+    font-family: 'latin_modern_roman10_regular';
+    font-size: medium;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-column-break-inside:avoid;
+    -moz-column-break-inside:avoid;
+    -o-column-break-inside:avoid;
+    -ms-column-break-inside:avoid;
+    column-break-inside:avoid;
+
+}
+
+#slide4{
+    
+}
+
+/*List (ha) for Working Papers*/
+
+ul.d {
+     width: 95%;
+     padding-top: 60px;
+     
+     list-style-type: none;
+     font-size: 32px;
+     margin: 0px auto;
+     font-family: 'News Cycle', sans-serif;	
+	
+}
+
+ul.d li{	
+    padding-bottom: 20px;
+}
+
+ul.e {
+  width: 100%;
+  padding-top: 20px;
+  font-family: 'latin_modern_roman10_regular';
+  list-style-type: none;
+  margin-bottom: 25px;
+  font-size: 20px;
+  display: block;
+}
+
+ul.e li{
+    padding: 5px;
+}
+
+/*This is for course pages*/
+
+ul.f {
+	font-family: 'latin_modern_roman10_regular';
+}
+
+ul.f li {
+	list-style-type: square;
+	padding-bottom: 1px;
+	margin-left: 40px;
+}
+
+#slide5{
+    background-image:url(pumpkin.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#slide5 .parallaxbg{
+    position:absolute;
+    right:40px;
+    top:40px;
+    font-size:28px;
+    color:rgba(51,51,51,0.3);
+}
