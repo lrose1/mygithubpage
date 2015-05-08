@@ -236,6 +236,7 @@ a.pages:hover {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-attachment: fixed;
      
 }
 
@@ -285,6 +286,7 @@ ul.a li ul.a li {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-attachment: fixed;
      
 }
 
@@ -294,6 +296,7 @@ ul.a li ul.a li {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-attachment: fixed;
      
 }
 
