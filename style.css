@@ -17,7 +17,6 @@ html,body{
 }
 
 /*Titles*/
-
 h1 {
     text-align: center;
     font-size: 75px;
@@ -48,7 +47,6 @@ img1 {
 	}
 
 /*Navigation*/
-
 .navigation {   
         
     z-index:2;      
@@ -87,7 +85,6 @@ img1 {
 }
 
 /*Images*/
-
 .envatologo {  
     position:fixed;  
     top:50%;  
@@ -140,9 +137,7 @@ a.pages:hover {
 	color: #000000;
 }
 
-
 /*Slides*/
-
 .slide {
     background-attachment: fixed;
     width:100%;
@@ -168,8 +163,6 @@ a.pages:hover {
 }
 
 /*Button*/
-
-
 .button{
     display: block;
     width:50px;
@@ -239,11 +232,8 @@ a.pages:hover {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-attachment: fixed;
-
-     
+    background-attachment: fixed;    
 }
-
 
 #slide2{
     
@@ -283,8 +273,6 @@ ul.a li ul.a li {
   float: none;
 }
 
-
-
 #slide2a{
     background-image:url(spreckels3.jpg);
     -webkit-background-size: cover;
@@ -310,7 +298,6 @@ ul.a li ul.a li {
 }
 
 /*List for classes */
-
 ul.b {
      width: 95%;
      padding-top: 60px;
@@ -355,7 +342,6 @@ ul.c {
 }
 
 /*List (ha-ha) for Working Papers*/
-
 ul.d {
      width: 95%;
      padding-top: 60px;
@@ -386,7 +372,6 @@ ul.e li{
 }
 
 /*This is for course pages*/
-
 ul.f {
 	font-family: 'latin_modern_roman10_regular';
 }
