@@ -50,15 +50,20 @@ img1 {
 /*Navigation*/
 
 .navigation {   
-    position:fixed;     
+        
     z-index:2;      
-    top:0px;
+    /*position:fixed;*/ 
     text-align:center;
     margin: 0;
     padding: 10px;
     width: 100%;
     background-color: #FFFFFF;
-}  
+}
+
+.navWrap {
+   height: 0px;
+}
+
 .navigation li {    
     color:#000000;      
     display:inline;      
@@ -144,14 +149,7 @@ a.pages:hover {
     min-height:100%;
     height: auto;
     position: relative;
-    box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3);
-}
-.slide2 {
-    background-attachment: fixed;
-    width:100%;
-    height:70%;
-    position: relative;
-    box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3);
+    /*box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3);*/
 }
 .wrapper {
     width:960px;
@@ -242,8 +240,10 @@ a.pages:hover {
     -o-background-size: cover;
     background-size: cover;
     background-attachment: fixed;
+
      
 }
+
 
 #slide2{
     

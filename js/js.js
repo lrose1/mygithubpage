@@ -90,3 +90,31 @@ jQuery(document).ready(function ($) {
     } 
  
 });
+
+$(function() {
+    // Stick the #nav to the top of the window
+    var navigation = $('.navigation');
+    var navHomeY = navigation.offset().top;
+    var isFixed = false;
+    var $w = $(window);
+    $w.scroll(function() {
+        var scrollTop = $w.scrollTop();
+        var shouldBeFixed = scrollTop > navHomeY;
+        if (shouldBeFixed && !isFixed) {
+            navigation.css({
+                position: 'fixed',
+                top: 0,
+                left: navigation.offset(),
+                width: navigation.width()
+            });
+            isFixed = true;
+        }
+        else if (!shouldBeFixed && isFixed)
+        {
+            navigation.css({
+                position: 'static'
+            });
+            isFixed = false;
+        }
+    });
+});
