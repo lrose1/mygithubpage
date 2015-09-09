@@ -1,10 +1,10 @@
 @font-face{ 
 	font-family: 'latin_modern_roman10_regular';
-	src: url('/Users/annikarose/Desktop/Website/lrose1.github.io/Latin-Modern-Roman-fontfacekit/web fonts/latinmodernroman_10regular_macroman/lmroman10-regular-webfont.eot');
-	src: url('/Users/annikarose/Desktop/Website/lrose1.github.io/Latin-Modern-Roman-fontfacekit/web fonts/latinmodernroman_10regular_macroman/lmroman10-regular-webfont.eot?iefix') format('eot'),
-	     url('/Users/annikarose/Desktop/Website/lrose1.github.io/Latin-Modern-Roman-fontfacekit/web fonts/latinmodernroman_10regular_macroman/lmroman10-regular-webfont.woff') format('woff'),
-	     url('/Users/annikarose/Desktop/Website/lrose1.github.io/Latin-Modern-Roman-fontfacekit/web fonts/latinmodernroman_10regular_macroman/lmroman10-regular-webfont.ttf') format('truetype'),
-	     url('/Users/annikarose/Desktop/Website/lrose1.github.io/Latin-Modern-Roman-fontfacekit/web fonts/latinmodernroman_10regular_macroman/lmroman10-regular-webfont.svg#latin_modern_roman10_regular') format('svg');
+	src: url('https://github.com/lrose1/lrose1.github.io/Latin-Modern-Roman-fontfacekit/web fonts/latinmodernroman_10regular_macroman/lmroman10-regular-webfont.eot');
+	src: url('https://github.com/lrose1/lrose1.github.io/Latin-Modern-Roman-fontfacekit/web fonts/latinmodernroman_10regular_macroman/lmroman10-regular-webfont.eot?iefix') format('eot'),
+	     url('https://github.com/lrose1/lrose1.github.io/Latin-Modern-Roman-fontfacekit/web fonts/latinmodernroman_10regular_macroman/lmroman10-regular-webfont.woff') format('woff'),
+	     url('https://github.com/lrose1/lrose1.github.io/Latin-Modern-Roman-fontfacekit/web fonts/latinmodernroman_10regular_macroman/lmroman10-regular-webfont.ttf') format('truetype'),
+	     url('https://github.com/lrose1/lrose1.github.io/Latin-Modern-Roman-fontfacekit/web fonts/latinmodernroman_10regular_macroman/lmroman10-regular-webfont.svg#latin_modern_roman10_regular') format('svg');
 }
 
 h1 { font-family: 'News Cycle', sans-serif; }
