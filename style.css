@@ -380,14 +380,14 @@ ul.f li {
 	margin-left: 40px;
 }
 
-#slide5{
+#slide6{
     background-image:url(pumpkin.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-#slide5 .parallaxbg{
+#slide6 .parallaxbg{
     position:absolute;
     right:40px;
     top:40px;
