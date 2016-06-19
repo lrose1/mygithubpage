@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+    
+<html>
+<head>
+    <title>econ104_sp15</title>
+    
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.3.0/build/cssreset/reset-min.css">
+    <link rel="stylesheet" href="../style.css" type="text/css" charset="utf-8" />
+    <link href='http://fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'>
+ 
+</head>
+
+<body>
+
+<ul class="navigation">
+    <li><a href="../index.html" class="pages">Return to Main Page</a></li>
+    
+</ul>    
+    
+    <h2 class="b">Econ 104, Winter 2016</h2>
+    <ul class="a" style="font-size: 32px;">
+        <li>Office Hours
+            <ul class="a">
+                <li>Wednesdays 12-2</li>
+                <li>403G in Engineering 2</li>
+            </ul>
+        </li>
+        <li> Section
+            <ul class="a">
+                <li>Tuesday 6:00-7:10</li>
+                <li>Tuesday 7:30-8:40</li>
+                <li>Jack Baskin 169</li>
+            </ul>
+        </li>
+    </ul>
+    
+    <ul class="b" style="font-size: 32px;">
+        <li>Section Materials
+            <ul class="c">
+                <li><a href="https://drive.google.com/file/d/0B2EeJixm4K-IbUlLUlVTTkdzaE0/view?usp=sharing" target="_blank">Section 1 Code</a></li>
+                <li><a href="https://drive.google.com/a/ucsc.edu/file/d/0B2EeJixm4K-Ialp0WHlGYTJkZTA/view?usp=sharing" target="_blank">Section 2 Code</a></li>
+                <li><a href="https://drive.google.com/file/d/0B2EeJixm4K-IWjcxa0lXSU1oLXM/view?usp=sharing" target="_blank">Section 3 "Code" - Help with LyX</a></li>
+                <li><a href="https://drive.google.com/file/d/0B2EeJixm4K-IYnVhY2dwVWJRMzQ/view?usp=sharing" target="_blank">Section 4 Code - IV</a></li>
+                <li><a href="https://drive.google.com/file/d/0B2EeJixm4K-IZnhaanUwUi1tTk0/view?usp=sharing" target="_blank">Section 5 Code - RD</a></li>
+                <li><a href="https://drive.google.com/file/d/0B2EeJixm4K-IdzZkRDdJM0FyQVE/view?usp=sharing" target="_blank">Section 6 Code - More RD, Help with HW3</a></li>
+                <li><a href="https://drive.google.com/file/d/0B2EeJixm4K-IQlk1UlNTTkRiX28/view?usp=sharing" target="_blank">Section 7 Code - RD and IV together, Help with HW4</a></li>
+                <li><a href="https://drive.google.com/file/d/0B2EeJixm4K-IVDZVTzBBUFlTc1E/view?usp=sharing" target="_blank">Section 9 - Things to Include in your Paper</a></li>
+                
+            </ul>
+        </li>
+    </ul>
+    
+    <ul class="d">
+        <li>Course Materials
+            <ul class="c">
+                <li>The course webpage is <a href="http://people.ucsc.edu/~cdobkin/Econ104.html" target="_blank">here</a>.</li>
+                <li>You can download R <a href="http://www.r-project.org/" target="_blank">here</a>. Immediately after doing this, download RStudio <a href="https://www.rstudio.com/products/rstudio/download/" target="_blank">here.</a></li>
+                <li>The following videos are by <a href="http://www.cazaar.com/" target="_blank">Curtis Kephart</a>, a graduate student here and an excellent TA. We cover many of the topics in section, but the videos are a great resource and have tens of thousands of views for a reason.</li>
+                    <ul class="f">
+                        <li><a href="https://www.youtube.com/watch?v=VLtazaiYo-c&list=PLkyDsZu21gyhmpHK55mYm6tJRJMPcCOoy&index=2" target="_blank"<a>Loading Data into R</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=LjuXiBjxryQ&list=PLkyDsZu21gyhmpHK55mYm6tJRJMPcCOoy" target="_blank"<a>Introduction to R</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=O03ysvNRlxo&list=PLkyDsZu21gyhmpHK55mYm6tJRJMPcCOoy" target="_blank"<a>Summary Statistics in R, Part I</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=J90kt3vGpFA&list=PLkyDsZu21gyhmpHK55mYm6tJRJMPcCOoy" target="_blank"<a>Summary Statistics in R, Part II</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=Ktks5K95uQM&list=PLkyDsZu21gyhmpHK55mYm6tJRJMPcCOoy" target="_blank"<a>Linear Regressions in R</a></li>
+                    </ul>
+            </ul>
+        </li>
+    </ul>
+    
+    
+    
+    
+    
+    
